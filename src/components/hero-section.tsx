@@ -31,9 +31,10 @@ export default function HeroSection() {
 
                             <Button
                                 asChild
-                                size="lg">
-                                <Link href="#">
-                                    <span className="btn-label">Start Building</span>
+                                size="lg"
+                                className="mt-4 px-8 py-6 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 animate-pulse hover:animate-none">
+                                <Link href="/auth">
+                                    <span className="btn-label">Get Started</span>
                                 </Link>
                             </Button>
                         </div>
